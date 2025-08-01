@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+  
+    margin: 20px auto;
+    width: 60%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clogo {
+    width: 100px;
+}
+
+.left {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: thin solid rgba(149, 149, 149, 0.574);
+    border-radius: 10px;
+    gap: .4em;
+    padding: 5px 25px;
+    box-shadow: 0px 0px 8px 0px rgba(174, 174, 174, 0.604);
+
+
+}
+
+.inner1 {
+    display: flex;
+    height: 26px;
+    background-color: rgba(144, 144, 144, 0.627);
+    width: 1px;
+}
+
+.inner2 {
+    align-items: center;
+    display: flex;
+
+}
+
+.inner2 p {
+    font-size: .8em;
+}
+
+.right {
+    display: flex;
+    
+    padding: 15px 25px;
+    justify-content: space-evenly;
+    gap: 2em;
+    align-items: center;
+}
+
+.inner3 {
+  
+    border-radius: 10px;
+    border: thin solid rgba(149, 149, 149, 0.574);
+    padding: 15px 25px;
+}
+
+.inner4 {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    align-items: center;
+    padding: 10px;
+width: 200px;
+    border: thin solid rgba(149, 149, 149, 0.574);
+    border-radius: 10px;
+
+}
+
+.head h1 {
+    font-size: 3.4em;
+    margin-bottom: 30px;
+}
+.but{
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: none;
+}
+.but a{
+    
+    
+}
+
+
+.su {
+   
+}
+
+.main {
+  
+    width: 60%;
+    margin: 150px auto;
+    padding: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.main p {
+    line-height: 1.5;
+    margin-bottom: 40px;
+
+}
+
+.gts {
+    
+    padding: 18px 70px;
+    font-size: 1.8em;
+    font-weight: 600;
+    border-radius: 10px;
+    background: linear-gradient(to right, #4AB4F9, #5C74FB, #7424FE, #AE09F5, #E70AE9);
+    border: none;
+    color: #fff;
+    text-decoration: none;
+}
+
+.gts-p {
+    margin-top: 30px;
+    font-size: .8em;
+}
+
+.headnext {
+
+    margin-bottom: 300px;
+}
+
+.transition {
+    border: 2px solid red;
+}
+
+.next {
+
+}
+
+.next h1 {
+    font-size: 2.6em;
+    margin-bottom: 30px;
+}
+
+.box-cont {
+    display: grid;
+  
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1em;
+}
+.boxes{
+   height: 380px;
+    background-color: #4AB4F9;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.boxes h1{
+    font-size: 1.4em;
+    text-align: justify;
+    color: #fff;
+}
+.boxes p{
+    margin-top: -20px;
+    font-size: 1em;
+    text-align: justify;
+    color: #fff;
+   
+}
+.box1{
+    background: url(./images/imgi_48_AI-powered-productivity.png), linear-gradient(to bottom, #D608FC, #AE16F6, #7C27ED, #5037E7);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.box2{
+    overflow: hidden;
+    position: relative;
+    background: linear-gradient(to bottom, #4CACFB, #5582F5, #6342EE);
+}
+.in{
+    position: absolute;
+}
+.inn{
+    width: 200%;
+}
+.box3{
+    background: linear-gradient(to bottom, #6638ED, #5B66F2, #4BABFA);
+}
+.box4{
+   background: url(./images/imgi_50_clickup-integrations.png), url(images/imgi_51_clickup-integration-replaces.png), linear-gradient(to bottom, #B114F6, #8424EF, #5037E7);
+   background-position: left, right;
+   background-repeat: no-repeat;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+    
+}
+
+.mini1 h1{
+    font-size: 1.4em;
+    text-align: justify;
+    color: #fff;
+}
+.mini1{
+  
+    background: url(./images/imgi_50_clickup-integrations.png);
+    width: 50%;
+    height: 200px;
+}
+.mini2{
+    background: url(./images/imgi_51_clickup-integration-replaces.png);
+    
+}
+.box5{
+    position: relative;
+    background: linear-gradient(to bottom, #252A31, #2B3039, #282D35);
+    overflow: hidden;
+}
+.in1{
+    position: absolute;
+}
+
+.inn2{
+    color: black;
+    filter: grayscale(0.8);
+    width: 200%;
+}
+.box6{
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #EC4196, #EC4196, #FE6550, #FE6550);
+}
+.in3{
+    position: absolute;
+}
+.inn3{
+    width: 200%;
+}
+.box8{
+   grid-column: 2 / span 2;
+}
+footer{
+    background-color: #F8F8FC;
+    padding: 20px;
+}
+.footnote{
+    width: 80%;
+    border: 2px solid red;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cl{
+    width: 50px;
+}
+.lefty{
+    align-items: center;
+
+}
+
+
+
+
+
