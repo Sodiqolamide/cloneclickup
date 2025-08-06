@@ -222,7 +222,7 @@ open-btn {
 
 .su {}
 
-@media (max-width: 575px) {
+@media (max-width: 428px) {
     header {
         border: none;
         width: 100%;
