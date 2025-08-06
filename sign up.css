@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body.modal-open {
+  overflow: hidden;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal:target {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.modal-box {
+    background: #fff;
+    padding: 30px;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.modal-box h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.modal-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.modal-box button {
+    width: 100%;
+    padding: 12px;
+    background:#7B68EE;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+
+.close {
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #999;
+}
+
+.close:hover {
+    color: #000;
+}
+html, body {
+  overflow-x: hidden;
+}
+#signup:target {
+  display: flex;
+}
+
+#signup:target ~ body {
+  overflow: hidden;
+}

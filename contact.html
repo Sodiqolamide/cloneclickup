@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Sales</title>
+  <link rel="stylesheet" href="contact.css" />
+</head>
+<body>
+  <div class="modal">
+    <div class="modal-header">
+      <h2>Contact Sales</h2>
+      <button class="close">&times;</button>
+    </div>
+
+    <form class="contact-form">
+      <div class="form-row">
+        <label for="email">Work Email <span>*</span></label>
+        <input type="email" id="email" required />
+      </div>
+
+      <div class="form-row">
+        <label for="first-name">First Name <span>*</span></label>
+        <input type="text" id="first-name" required />
+      </div>
+
+      <div class="form-row">
+        <label for="phone">Phone <span>*</span></label>
+        <input type="tel" id="phone" required />
+      </div>
+
+      <p class="consent-text">
+        By submitting my information, I confirm that I have read and understood the ClickUp 
+        <a href="#">Privacy Policy</a>. I consent to the use of my information to contact me via email, 
+        phone, or SMS regarding my inquiry, with the option to opt out at any time.
+      </p>
+
+      <div class="form-actions">
+        <button type="post" class="submit-btn">Submit</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

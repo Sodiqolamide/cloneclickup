@@ -1,0 +1,318 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.ccl {
+    width: 150px;
+}
+
+.hl {
+    display: block;
+
+}
+
+.hl p {
+    margin-top: -15px;
+    font-size: .8em;
+    color: #000;
+    text-align: justify;
+    padding-left: 15px;
+}
+
+.hr {
+    display: flex;
+    justify-content: space-around;
+    gap: 1em;
+    padding: 20px;
+    align-items: center;
+}
+
+.hr a {
+    background: #6049E7;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 30px 0px #9e90e8;
+}
+.hmain{
+    background:#FFFFFF ;
+    width: 30%;
+    margin: 200px auto;
+    padding: 40px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0px 10px 30px 10px rgb(238, 231, 231) ;
+}
+
+.gdiv{
+    border: thin solid rgb(224, 217, 217);
+    width: 100%;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    
+}
+.gdiv1{
+    cursor: pointer;
+   justify-content: center;
+}
+.gdiv1:hover{
+    background-color: #E8F0FE;
+}
+
+.divider {
+    width: 100%;
+  text-align: center;
+  margin: 20px auto ;
+  position: relative;
+}
+
+.divider span {
+  background: white;
+  padding: 0 10px;
+  position: relative;
+  z-index: 1;
+  font-size: 14px;
+  color: rgb(224, 217, 217);
+}
+
+.divider::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background:rgb(224, 217, 217);
+  z-index: 0;
+}
+label{
+    text-align: left;
+}
+
+form {
+  text-align: left;
+}
+
+label {
+  font-size: 13px;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 6px;
+  margin-top: 10px;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px 12px 12px 35px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  background: #f5f8ff;
+}
+
+.input-group .icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #999;
+}
+
+.forgot {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 12px;
+  text-decoration: none;
+  color: #6c63ff;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background: #6c63ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.sso-link {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: #6c63ff;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+
+
+
+
+
+@media (max-width: 1440px) {
+  .hmain {
+    width: 35%;
+    padding: 50px;
+  }
+
+  form {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+
+@media (max-width: 1200px) {
+  .hmain {
+    width: 45%;
+    padding: 45px;
+  }
+
+  form {
+    width: 85%;
+  }
+
+  .hr {
+    gap: 0.7em;
+    padding: 15px;
+  }
+}
+
+
+@media (max-width: 1023px) {
+     .hr p{
+        display: none;
+    }
+    header{
+        padding: 20px;
+    }
+  .hmain {
+    width: 60%;
+    padding: 40px;
+  }
+
+  form {
+    width: 90%;
+  }
+
+  .hr {
+    flex-direction: column;
+    padding: 12px;
+  }
+
+  .ccl {
+    width: 130px;
+  }
+}
+
+
+@media (max-width: 767px) {
+     .hr p{
+        display: none;
+    }
+    header{
+padding: 20px;
+    }
+  .hmain {
+    width: 85%;
+    padding: 30px;
+  }
+
+  form {
+    width: 95%;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  .login-btn,
+  .gdiv1 p {
+    font-size: 13px;
+  }
+
+  .hr {
+    padding: 10px;
+    gap: 0.5em;
+  }
+
+  .hl p {
+    font-size: 0.75em;
+    padding-left: 8px;
+  }
+}
+
+
+@media (max-width: 479px) {
+    header{
+        padding: 30px;
+    }
+    .hr p{
+        display: none;
+    }
+  .hmain {
+    width: 95%;
+    padding: 25px;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  .ccl {
+    width: 100px;
+  }
+
+  .login-btn,
+  .gdiv1 p {
+    font-size: 12px;
+  }
+
+  .input-group input {
+    font-size: 13px;
+    padding-left: 30px;
+  }
+
+  .forgot {
+    font-size: 11px;
+  }
+
+  .hr {
+    flex-direction: column;
+    padding: 8px;
+    gap: 0.5em;
+  }
+
+  .hl p {
+    font-size: 0.7em;
+    padding-left: 5px;
+  }
+}
