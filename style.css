@@ -222,7 +222,7 @@ open-btn {
 
 .su {}
 
-@media (max-width: 428px) {
+@media (max-width: 458px) {
     header {
         border: none;
         width: 100%;
@@ -259,6 +259,7 @@ open-btn {
         border: 2px solid red;
         width: 100%;
 
+
     }
 
     .head .h11 {
@@ -290,6 +291,7 @@ open-btn {
 
     .next {
         border: 2px solid red;
+        display: flex;
     }
 
 
@@ -454,7 +456,7 @@ open-btn {
 
 
 .next {
-    width: 60%;
+    width: 100%;
     margin: auto;
 }
 
@@ -464,10 +466,11 @@ open-btn {
 }
 
 .box-cont {
-
+width: 60%;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 1em;
+    margin: auto;
 }
 
 .boxes {
