@@ -268,7 +268,8 @@ open-btn {
     }
 
     .head .firstp {
-        font-size: .7em;
+        font-size: .8em;
+
     }
 
     .head a {
@@ -278,7 +279,8 @@ open-btn {
     }
 
     .head .gts-p {
-        font-size: .9em;
+        font-size: .7em;
+        margin-bottom: -18px;
     }
 
     .headnext .pt {
@@ -347,6 +349,14 @@ open-btn {
     padding: 20px;
 }
 
+@media (max-width: 425px) {
+    .main {
+
+        margin-top: -15px;
+    }
+
+}
+
 
 .main p {
     line-height: 1.5;
@@ -399,6 +409,12 @@ open-btn {
     width: 50%;
 }
 
+@media (max-width: 425px) {
+    .transimage {
+        width: 70%;
+    }
+}
+
 
 
 
@@ -413,6 +429,14 @@ open-btn {
     -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
 }
 
+@media (max-width: 425px) {
+    .transition {
+        width: 100%;
+        margin-top: -40px;
+        margin-bottom: -60px;
+    }
+}
+
 .transdiv {
 
     display: flex;
@@ -422,6 +446,13 @@ open-btn {
     align-items: center;
     margin-bottom: 0px;
 
+}
+
+@media (max-width: 425px) {
+    .transdiv {
+        gap: .1em;
+
+    }
 }
 
 .transdiv span {
@@ -459,13 +490,15 @@ open-btn {
         margin-top: 30px;
         margin-bottom: -100px;
 
+
     }
 
-   
+
 
     .box-cont {
         margin-bottom: -100px;
         width: 100%;
+
     }
 
     .box4,
@@ -473,7 +506,7 @@ open-btn {
     .box8 {
         display: none;
     }
-    
+
 
 
 }
@@ -483,13 +516,27 @@ open-btn {
     margin-bottom: 30px;
 }
 
+@media (max-width: 425px) {
+    .next h2 {
+        font-size: 1.2em;
+        text-wrap: nowrap;
+    }
+
+    .next p {
+        margin-top: -20px;
+        font-size: .7em;
+    }
+}
+
+
 .box-cont {
     width: 60%;
     display: flex;
     flex-wrap: wrap;
     gap: 1em;
     margin: auto;
-    align-self: center;
+    justify-content: center;
+    
 }
 
 .boxes {
@@ -499,11 +546,30 @@ open-btn {
     padding: 20px;
 }
 
+.boxi {
+    width: 100%;
+}
+
+@media (max-width: 425px) {
+    .box-cont {
+        
+    }
+    .boxes{
+        padding: 10px;
+    }
+}
+
 .boxes h1 {
     font-size: 1.4em;
     margin-bottom: 30px;
     text-align: justify;
     color: #fff;
+}
+@media(max-width:425px){
+    .boxes h1{
+        font-size: 1.12em;
+        margin-top: 20px;
+    }
 }
 
 
@@ -514,6 +580,12 @@ open-btn {
     text-align: justify;
     color: #fff;
 
+}
+@media(max-width:425px) {
+    .boxes p {
+        font-size: .8em;
+       
+    }
 }
 
 .box1 {
