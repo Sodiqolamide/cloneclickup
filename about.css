@@ -55,7 +55,7 @@
 
  @media(max-width:425px) {
      .clogo {
-         width: 50px;
+         width: 100px;
      }
  }
 
@@ -95,9 +95,10 @@
 
  @media(max-width:425px) {
      .inner1 {
-         width: 30px;
+       
 
      }
+
  }
 
  .inner2 {
@@ -109,19 +110,22 @@
 
  @media(max-width:425px) {
      .inner2 {
-         background-color: gold;
-
+       
+        
      }
  }
 
  .inner2 p {
      font-size: .8em;
      margin-bottom: 0px;
+     text-wrap: wrap;
  }
 
  @media(max-width:425px) {
      .inner2 p {
-         font-size: .6em;
+         font-size: .86em;
+         flex-wrap: nowrap;
+         text-wrap: nowrap;
      }
  }
 
